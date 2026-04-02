@@ -1,0 +1,26 @@
+.bottom-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    background: #8aa4c3;
+    margin-top: 1rem;
+}
+
+.bottom-tab {
+    background: #3288e4;
+    color: #fff;
+    border: 0;
+    padding: 0.8rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bottom-tab.is-dim {
+    background: #89a7ca;
+}
+
+.bottom-tab.is-active {
+    background: #1f6dc0;
+}

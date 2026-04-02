@@ -1,0 +1,30 @@
+.medical-topbar {
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    background: linear-gradient(180deg, #4c98f0, #3178d7);
+    color: #fff;
+    font-weight: 600;
+}
+
+.top-tab {
+    border: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.journal-tab {
+    padding: 0.8rem 1.2rem;
+    background: rgba(17, 111, 218, 0.28);
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+}
+
+.patient-tab {
+    position: relative;
+    padding: 0.8rem 1.3rem;
+    background: rgba(255, 255, 255, 0.12);
+    font-size: 0.86rem;
+}

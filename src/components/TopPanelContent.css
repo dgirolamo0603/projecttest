@@ -1,0 +1,58 @@
+.top-panels {
+    background: #f3f5f8;
+    border-bottom: 1px solid #d9e0e8;
+}
+
+.top-panel {
+    display: none;
+    padding: 0.85rem 1.1rem;
+}
+
+.top-panel.is-active {
+    display: block;
+}
+
+.journal-content {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.journal-card {
+    background: #fff;
+    border: 1px solid #d7dfe8;
+    padding: 0.75rem 0.9rem;
+    min-width: 180px;
+}
+
+.journal-card strong,
+.journal-card span {
+    display: block;
+}
+
+.journal-card strong {
+    margin-bottom: 0.35rem;
+    color: #445062;
+    font-size: 0.9rem;
+}
+
+.journal-card span {
+    color: #697384;
+    font-size: 0.88rem;
+    line-height: 1.4;
+}
+
+.patient-line {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.8rem 1.1rem;
+    background: #ffffff;
+    border-bottom: 1px solid #d9e0e8;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.patient-line .home {
+    color: #4a91e2;
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #dfe6ef;
+    margin: 0;
+    padding: 2rem;
+    color: #1f2933;
+}
+
+.medical-shell {
+    background: #f7f8fa;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(29, 49, 79, 0.14);
+    overflow: hidden;
+}
+
+.medical-body {
+    display: flex;
+    min-height: 760px;
+}
+
+.side-rail {
+    display: flex;
+    width: 46px;
+    background: linear-gradient(180deg, #4a96eb, #2f7fdc);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 1rem 0;
+}
+
+.medical-panel {
+    flex: 1;
+    background: #fbfbfc;
+}
+
+.panel-title {
+    padding: 0.95rem 1.2rem;
+    background: #f0f0f1;
+    border-bottom: 1px solid #d9dde3;
+    font-size: 1.05rem;
+    color: #5d6672;
+}
+
+.case-form {
+    padding: 1rem 1.2rem 1.4rem;
+}
+
+.workspace-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.case-content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+@media (max-width: 900px) {
+    .medical-body {
+        min-height: 0;
+    }
+
+    .workspace-layout {
+        flex-direction: column;
+    }
+
+    .embed-app {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .case-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,21 @@
+.embed-app {
+    flex: 0 0 42%;
+    min-width: 320px;
+    padding: 0;
+    background: #fbfbfc;
+}
+
+.embed-app h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    color: #5d6672;
+    text-align: center;
+}
+
+.embed-app iframe {
+    width: 100%;
+    min-height: 820px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    background: #fff;
+}
